@@ -45,6 +45,16 @@ body {
     gap: 15px;
 }
 
+#links li {
+    background-color: #f4f4f4;
+    backdrop-filter: blur(4px);
+    -web-backdrop-filter: blur(4px);
+    transition: background 300ms;
+}
+
+#links li:hover {
+    background-color: #311269;
+}
 
 #links a {
     display: block;
@@ -66,8 +76,14 @@ body {
 #social-links i {
     font-size: 25px;
     color: var(--text-color);
+
+    transition: color 300ms;
 }
 
 #social-links a {
     text-decoration: none;
+}
+
+#social-links i:hover {
+    color: #311269;
 }
