@@ -6,6 +6,7 @@
 
 body * {
     color: var(--text-color);
+    font-family: 'Poppins', sans-serif;
 }
 
 :root {
@@ -27,6 +28,11 @@ body * {
     border-radius: 50%;
     border: 2px solid #BB99DD;
     margin-bottom: 10px;
+}
+
+#profile p {
+    line-height: 24px;
+    font-weight: 300;
 }
 
 
