@@ -35,7 +35,12 @@ body {
 
 #profile p {
     line-height: 24px;
-    font-weight: 300;
+    font-weight: 600;
+    transition: color .3s;
+}
+
+#profile p:hover {
+    color: #6D5B74;
 }
 
 #links ul {
@@ -53,7 +58,7 @@ body {
 }
 
 #links li:hover {
-    background-color: #311269;
+    background-color: #6D5B74;
 }
 
 #links a {
@@ -85,5 +90,5 @@ body {
 }
 
 #social-links i:hover {
-    color: #311269;
+    color: #6D5B74;
 }
