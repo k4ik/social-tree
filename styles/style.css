@@ -7,6 +7,7 @@
 body * {
     color: var(--text-color);
     font-family: 'Poppins', sans-serif;
+    height: 100%;
 }
 
 :root {
@@ -35,9 +36,6 @@ body * {
     font-weight: 300;
 }
 
-#links {
-}
-
 #links ul {
     list-style: none;
     display: flex;
@@ -58,3 +56,12 @@ body * {
     border-radius: 4px;
 }
 
+#social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    padding: 24px 0;
+    color: var(--text-color);
+}
