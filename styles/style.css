@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body * {
+    color: var(--text-color);
+}
+
+:root {
+    --text-color: #BB99DD;
+}
+
+#container {
+    width: 330px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#profile {
+    padding: 44px 0;
+}
+
+#profile img {
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid #BB99DD;
+    margin-bottom: 10px;
+}
+
+
+
