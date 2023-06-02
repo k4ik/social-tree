@@ -4,19 +4,23 @@
     box-sizing: border-box;
 }
 
+:root {
+    --text-color: #BB99DD;
+    --bg-color: #FAF7FD;
+}
+
 body * {
     color: var(--text-color);
+    background-color: var(--bg-color);
     font-family: 'Poppins', sans-serif;
     height: 100%;
 }
 
-:root {
-    --text-color: #BB99DD;
-}
+
 
 #container {
-    width: 330px;
-    margin: 0 auto;
+    width: 300px;
+    margin: 56px auto;
     text-align: center;
 }
 
@@ -44,10 +48,6 @@ body * {
 }
 
 
-#links li {
-    width: 326px;
-}
-
 #links a {
     display: block;
     text-decoration: none;
@@ -61,11 +61,11 @@ body * {
     flex-direction: row;
     justify-content: center;
     gap: 10px;
-    padding: 24px 0;
+    margin-top: 34px;
 }
 
 #social-links i {
-    font-size: 20px;
+    font-size: 25px;
     color: var(--text-color);
 }
 
