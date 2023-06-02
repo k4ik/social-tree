@@ -61,7 +61,14 @@ body * {
     flex-direction: row;
     justify-content: center;
     gap: 10px;
-    font-size: 20px;
     padding: 24px 0;
+}
+
+#social-links i {
+    font-size: 20px;
     color: var(--text-color);
+}
+
+#social-links a {
+    text-decoration: none;
 }
