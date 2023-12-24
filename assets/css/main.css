@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url(../fonts/Poppins-ExtraLight.ttf);
+}
+.link-style, main .social-links a, main .links a, main .username {
+  color: purple;
+  text-decoration: none;
+}
+.link-style:hover, main .social-links a:hover, main .links a:hover, main .username:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: poppins;
+}
+main .photo {
+  width: 190px;
+  border-radius: 50%;
+  border: 1px solid purple;
+  padding: 5px;
+}
+main .username {
+  display: block;
+  margin-top: 10px;
+}
+main .links li {
+  list-style: none;
+  border: 1px solid purple;
+  text-align: center;
+  margin-top: 20px;
+}
+main .links li:last-child {
+  margin-bottom: 20px;
+}
+main .links a {
+  padding: 0 100px;
+}
+main .links a:hover {
+  transition: 0.2s;
+  background-color: purple;
+  color: #fff;
+}
+main .social-links {
+  display: flex;
+  gap: 20px;
+}
+main .social-links li {
+  list-style: none;
+}
+main .social-links i {
+  font-size: 25px;
+}/*# sourceMappingURL=main.css.map */
